@@ -1,0 +1,41 @@
+.background2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background: linear-gradient(90deg, #7eaaff, #052d54);
+}
+.know-more {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 1;
+}
+.bottom-inside-article-box {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-14xl) var(--padding-4xs);
+  background-color: transparent;
+  width: 176px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  z-index: 3;
+  margin-top: -63px;
+}

@@ -1,0 +1,8 @@
+.resister-bottom-icon1 {
+  height: 37.4px;
+  width: 136.3px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  object-fit: contain;
+  z-index: 1;
+}

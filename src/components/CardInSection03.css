@@ -1,0 +1,42 @@
+.card-in-section-03-item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ques-of-the {
+  width: 258px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.card-in-section-031 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs-5) var(--padding-xl) var(--padding-236xl-5);
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-k2d);
+}
+@media screen and (max-width: 450px) {
+  .ques-of-the {
+    font-size: var(--font-size-xl);
+  }
+}

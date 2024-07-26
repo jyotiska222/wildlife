@@ -1,0 +1,117 @@
+.barckground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #006b6b, #000 70.14%);
+}
+.about-us,
+.text-logo,
+.travel-guide {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.text-logo {
+  font-weight: 800;
+  z-index: 1;
+}
+.about-us,
+.travel-guide {
+  flex-shrink: 0;
+}
+.travel-guide {
+  flex: 1;
+  font-weight: 600;
+}
+.about-us {
+  margin-left: -14px;
+  width: 154px;
+  font-weight: 800;
+  display: inline-block;
+}
+.about {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.components-of-nav-bar1,
+.travel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.travel {
+  width: 294px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.components-of-nav-bar1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  z-index: 1;
+}
+.header1,
+.navigation {
+  width: 462px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.header1 {
+  width: 1440px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-6xl) var(--padding-225xl) var(--padding-7xl)
+    var(--padding-153xl);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .text-logo {
+    font-size: 32px;
+  }
+  .header1 {
+    padding-left: var(--padding-67xl);
+    padding-right: var(--padding-103xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .travel {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text-logo {
+    font-size: var(--font-size-5xl);
+  }
+  .header1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

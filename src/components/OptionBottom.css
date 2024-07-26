@@ -1,0 +1,47 @@
+.placeholders,
+.placeholders1 {
+  height: 23.33%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+}
+.placeholders {
+  position: absolute;
+  width: 100%;
+  top: 76.67%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.placeholders1 {
+  top: 0;
+  bottom: 76.67%;
+}
+.bottom-logo1,
+.placeholders1,
+.placeholders2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.placeholders2 {
+  height: 23.33%;
+  top: 38.33%;
+  bottom: 38.33%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+}
+.bottom-logo1 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.option-bottom {
+  height: 12px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 43px;
+  left: 46px;
+  z-index: 3;
+}

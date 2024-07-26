@@ -1,0 +1,46 @@
+.button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mid);
+  background-color: var(--color-cornflowerblue);
+  border-top: 2px solid var(--color-lightsteelblue);
+  border-left: 2px solid var(--color-lightsteelblue);
+  box-sizing: border-box;
+  mix-blend-mode: color-dodge;
+}
+.get-ticket1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 500;
+  color: inherit;
+  min-width: 76px;
+  z-index: 1;
+}
+.get-ticket {
+  width: 109px;
+  margin: 0 !important;
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-6xs)
+    var(--padding-mid);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,12 @@
+.get-ticket-wrapper {
+  width: 109px;
+  margin: 0 !important;
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}

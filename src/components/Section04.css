@@ -1,0 +1,53 @@
+.background-icon,
+.photographer-taking-photo-wild-icon {
+  height: 500px;
+  width: 1440px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -153px;
+  left: -739px;
+  object-fit: cover;
+}
+.photographer-taking-photo-wild-icon {
+  height: 270px;
+  width: 478px;
+  bottom: -64px;
+  left: -581px;
+  border-radius: var(--br-xl);
+  z-index: 1;
+}
+.best-photo-of {
+  width: 464px;
+  position: absolute;
+  margin: 0 !important;
+  top: -6px;
+  left: -574px;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.section-04,
+.wildlife-photography-is {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.wildlife-photography-is {
+  flex: 1;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.section-04 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 450px) {
+  .best-photo-of,
+  .wildlife-photography-is {
+    font-size: var(--font-size-xl);
+  }
+}
